@@ -1,22 +1,17 @@
-# NEAR HOT WALLET CLAIMER
+# Tools Hot For Claim
 
-Near HOT Wallet claimer for automatic claiming HOT token using Near/Lava mainnet RPC.
+This package for automatic claiming HOT token using Near/Lava mainnet RPC.
 
 ## Setup
-- install nodejs.
-- cd to project dir.
-- run ```npm install```.
-- run ```cp account-temp.js account.js``` and add ur wallet deails with this format ```accountID|privateKEY``` , example ```test.near|akalsjfklasjfklasjfklasf```. it support multiple wallet
-so just write down like this
-```
-test.near|akalsjfklasjfklasjfklasf
-test.near|akalsjfklasjfklasjfklasf
-test.near|akalsjfklasjfklasjfklasf
-```
-- run ```npm run claim```.
+- Install Nodejs.
+- Cd to Project Dir
+- Run ```npm install```.
+- Run ```cp account-temp.js account.js``` and add ur wallet deails with this format ```accountID|privateKEY``` , Example ```test.tg|JaWa8DjwJNaHiTeM```. it support multiple wallet
+- Run ```npm run claim```.
 
 ## NOTE
-use new wallet 
+Requirement :
+Deposit 0.5 NEAR for claim.
 
 
 
