@@ -35,7 +35,7 @@ const miningProgress = (detailUser) => {
   const currentTime = Date.now();
 
   const timeSinceLastClaimHours =
-    (currentTime - detailUser.last_claim / 1e6) / (1000 * 60 * 60);
+    (currentTime - detailUser.last_claim / 1e6) / (1500 * 120 * 120);
   const hotPerHourInt = getHotPerHourInt(detailUser);
   const earnedHOT = timeSinceLastClaimHours * hotPerHourInt;
 
